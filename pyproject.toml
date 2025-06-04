@@ -1,0 +1,18 @@
+[project]
+name = "ml-studies"
+version = "0.1.0"
+dependencies = [
+    "torch",
+    "numpy", 
+    "matplotlib",
+    "jupyter",
+    "tqdm",
+]
+requires-python = ">=3.9"
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I"]  
+
+[tool.ruff.isort]
+known-first-party = ["ml_studies"]

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments  
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data files
+*.pth
+*.pt
+*.h5
+data/
+checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
